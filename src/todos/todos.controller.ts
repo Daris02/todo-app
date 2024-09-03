@@ -10,7 +10,7 @@ import {
   Patch,
   Post,
 } from '@nestjs/common';
-import { CreateTodoDto } from 'src/dto/todo.dto';
+import { CreateTodoDto } from 'src/dto/todo';
 
 @Controller('todos')
 export class TodosController {
